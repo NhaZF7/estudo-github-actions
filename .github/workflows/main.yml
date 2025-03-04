@@ -2,16 +2,16 @@ name: teste
 
 on:
   push:
-    branch:
+    branchs:
       - 'main'
 
 jobs:
   build:
-    runs-os: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/steup-node@v1
+      - uses: actions/setup-node@v1
         with:
           node-version: 16
-      - run: npm c
+      - run: npm ci
       - run: npm run test
