@@ -1,0 +1,16 @@
+{
+  "name": "estudo-github-actions",
+  "version": "1.0.0",
+  "description": "Repositório para testar o github actions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-secundario:NhaZF7/estudo-github-actions.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
